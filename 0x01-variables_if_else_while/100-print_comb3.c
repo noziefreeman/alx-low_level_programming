@@ -14,6 +14,7 @@
  * You can only use putchar five times maximum in your code
  * You are not allowed to use any variable of type char
  * All your code should be in the main function
+ * Return: 0
  */
 int main(void)
 {
@@ -23,7 +24,7 @@ int main(void)
 	while (d < 10)
 	{
 		c = 0;
-		while(c < 10)
+		while (c < 10)
 		{
 			if (d != c && d < c)
 			{
